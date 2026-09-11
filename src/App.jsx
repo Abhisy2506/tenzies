@@ -11,7 +11,7 @@ export default function App() {
   function generateNewDice() {
     const newDice = [];
     for (let i = 1; i <= 10; ++i) {
-      let num = Math.floor(Math.random() * 6) + 1*;
+      let num = Math.floor(Math.random() * 6) + 1;
       newDice.push({ id: i, value: num, isHeld: false });
     }
     return newDice;
